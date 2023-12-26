@@ -1,0 +1,66 @@
+:root{
+    --color-60: #178c3c;
+    --color-30: #cf3934;
+    --color-10: #ffc94c;
+}
+
+form{
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    border: solid 1px;
+    border-radius: 10px;
+    background: var(--color-30);
+}
+
+.field{
+    text-align: center;
+}
+
+.field>h2{
+    color: var(--color-10);
+}
+
+.field>input{
+    width: 250px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+
+.field>textarea{
+    width: 250px;
+    height: 200px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    resize: none;
+    font-size: 18px;
+}
+
+form>input[type="submit"]{
+    width: 200px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background: var(--color-10);
+    font-weight: 700;
+    transition: ease .5s;
+}
+
+form>input[type="submit"]:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 5px var(--color-10);
+}
+
+
+
+
+
+

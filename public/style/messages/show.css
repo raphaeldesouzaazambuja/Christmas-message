@@ -1,0 +1,36 @@
+:root{
+    --color-60: #178c3c;
+    --color-30: #cf3934;
+    --color-10: #ffc94c;
+}
+
+.content{
+    width: 500px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    gap: 30px;
+    border: solid 1px;
+    border-radius: 10px;
+    background: var(--color-30);
+}
+
+
+h1{
+    margin-top: 40px;
+    color: var(--color-10);
+}
+
+.message{
+    width: 90%;
+    text-align: justify;
+}
+
+.link{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
